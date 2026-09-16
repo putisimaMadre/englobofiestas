@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>En Globo Fiestas</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Google Font: Fredoka -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+  .portfolio-filters li {
+    font-size: 30px !important; /* Puedes cambiar 20px por el tamaño que desees */
+    font-weight: bold;
+  }
+</style>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+  <div class="container-fluid position-relative p-0 m-0">
+    
+    <!-- Enlace y Banner -->
+    <a href="index.html" class="logo-link-extremo">
+      <img src="assets/img/enGlobo/logoEnfiestasLogoM2.jpeg" alt="EnGloboFiestas" class="logo-extremo-img">
+    </a>
+
+    <!-- Navegación -->
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+  </div>
+</header>
+
+  <main class="main my-4">
+    <section id="portfolio" class="portfolio section">
+      <div class="container-fluid px-lg-5">
+
+        <!-- CONTENEDOR PRINCIPAL DE ISOTOPE (REQUERIDO PARA QUE FUNCIONE EL FILTRADO) -->
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <!-- ENCABEZADO Y FILTROS -->
+          <div class="row align-items-center mb-4">
+            <div class="col-lg-12 text-center">
+              <h1 class="tituloPrincipal titulo-rosa">Somos la mejor opción para tus eventos</h1>
+              <p class="titulo-anaranjado">Visita una amplia gama de servicios, mobiliario...</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 text-center align-items-center">
+              <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="filter-active titulo-rosa">Todos</li>
+                <li data-filter=".filter-app" class="titulo-verde">Inflables</li>
+                <li data-filter=".filter-product" class="titulo-anaranjado">Mobiliario</li>
+                <li data-filter=".filter-branding" class="titulo-rosa">Snacks</li>
+                <li data-filter=".filter-books" class="titulo-anaranjado">Alimentos</li>
+                <li data-filter=".filter-books" class="titulo-verde">Espectáculo</li>
+                <li data-filter=".filter-books" class="titulo-rosa">Entretenimiento</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ESTRUCTURA EN DOS COLUMNAS -->
+          <div class="row gy-4">
+            
+            <!-- COLUMNA IZQUIERDA: Menú Vertical Lateral -->
+            <div class="col-lg-3 order-1">
+              <aside class="sidebar-vertical-menu p-3 rounded shadow-sm bg-white sticky-top" style="top: 100px; z-index: 99;">
+                <h5 class="fw-bold mb-3 border-bottom pb-2 titulo-verde">Categorías</h5>
+                <ul class="nav nav-pills flex-column gap-1">
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Renta de Inflables
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <!-- Enlace principal que el usuario ve y al que le da clic -->
+                      <li>
+                        <a class="dropdown-item glightbox" href="assets/img/enGlobo/inflables1/i2.jpeg" data-gallery="galeria-toros">
+                          Toros mecánicos
+                        </a>
+                      </li>
+                      <!-- Las otras 2 imágenes ocultas (d-none) pero conectadas a la misma galería -->
+                      <li class="d-none">
+                        <a class="glightbox" href="assets/img/enGlobo/inflables1/i6.jpeg" data-gallery="galeria-toros"></a>
+                      </li>
+                      <!--<li class="d-none">
+                        <a class="glightbox" href="assets/img/enGlobo/inflables1/i6.jpeg" data-gallery="galeria-toros"></a>
+                      </li>-->
+                      <li><a class="dropdown-item" href="portfolio-inflables.html">UP dawn y/o demoledor</a></li>
+                      <li><a class="dropdown-item" href="portfolio-inflables.html">Mesa hokye</a></li>
+                      <li><a class="dropdown-item" href="portfolio-inflables.html">JENGA GIGANTE</a></li>
+                      <li><a class="dropdown-item" href="portfolio-inflables.html">Magic beans</a></li>
+                      <li><a class="dropdown-item" href="portfolio-inflables.html">Rally Pista</a></li>
+                      <li><a class="dropdown-item" href="portfolio-inflables.html">Gotcha hidrogel</a></li><li><a class="dropdown-item" href="portfolio-inflables.html#castillos">Mesa hokye</a></li>
+                      <li><a class="dropdown-item" href="portfolio-inflables.html">Maquina de espuma </a></li>
+
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Carpas
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Lonas</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Carpas convensional</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Carpa elegante</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Carpa transparente</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Cortinas</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Mesas
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Redonda</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Tablón</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Imperial</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">California</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mesa de Masa pic nic</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mesa con sombrilla</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mesa love</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mesa infantil</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Sillas
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Sillas Plegables</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Sillas Tiffany</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Sillas crossback</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Sillón para novios y xv años</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Periqueras
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Periqueras tipo bar</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Periqueras vintage</a></li>
+                      
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Salas
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Salas lounge</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Mas de 40 shows
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Shows infantiles</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Payaso</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Animación baby shower</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pinta caritas</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Puesto de Feria</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Letras y numeros iluminados</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Mas de 40 shows
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Shows infantiles</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Payaso</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Animación baby shower</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pinta caritas</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Barras de Snacks
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Esquites</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Dorilocos</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Elotes</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Snaks</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Maruchan</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Fresas con crema y duraznos</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mini hotcackes</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Maquina de helados suaves</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Fuente de chocolate</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Postres</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Bebidas</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Barras de Bebidas
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Micheladas</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Cockteleria</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Barra libre</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Servicio de Alimentos
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Taquizas de guisados</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Tacos al pastor</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Menu en tres tiempos</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mixiotes</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Carnitas</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Barbacoa</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pozole</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Parrillada argentina</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Parrillada mexicana</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Parrilla suiza</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Hamburguesa y hot dogs</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Birria</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Desayunos ejecutivo</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Desayuno americano</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Desayuno buffet</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Caffe brake</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Vajilla
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Cristalería y plaque</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Plato de barro</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Plato base</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Plato: ondo, medio, trinche, pastelero</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Copas</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Vasos</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Tazas</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Hieleras grandes</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Decoraciónes
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Globos</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Telas</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Flores</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Luces</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Espejo bienvenida</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Depósitos de cerveza y refrescos</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Sonido y rockolas</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Batucada y activaciones
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Caffe brake</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Robot Iluminado</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Cabezones (la máscara, Bad Bunny, Casimiro "banda el mexicano" )</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Zanqueros iluminados</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Zanqueros tradicional</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Maestro de ceremonia</a></li>
+                      
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      Pistas
+                    </a>
+                    <ul class="dropdown-menu w-100">
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pista Iluminada</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pista de Madera</a></li>
+                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Templete</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </aside>
+            </div>
+
+            <!-- COLUMNA DERECHA: Grilla de Tarjetas (Isotope Container) -->
+            <div class="col-lg-9 order-2">
+              <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                
+                <!-- Ítem 1 (Inflables - Pertenece a filter-app) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/inflables1.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <a href="{{ url('/inflables') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloInflables.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <p>Inflables</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 1 (Inflables - Pertenece a filter-app) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/barraDeSnacks.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <a href="{{ url('/snacks') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloBarraSnacks.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <p>Barra de Snacks</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/decoracion2.jpeg" class="img-fluid portfolio-content-img" alt="Decoracion" style="width: 400px; height: 250px; object-fit: cover;">
+                      <a href="{{ url('/decoracion') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloDecoracion.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <p>Decoración</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/mesa2.jpeg" class="img-fluid portfolio-content-img" alt="Mesas" style="width: 400px; height: 250px; object-fit: cover;">
+                      <a href="{{ url('/mesas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloMesa.jpeg" class="img-fluid portfolio-content-img" alt="Mesas">
+                      <p>Mesas</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/sillas.jpeg" class="img-fluid portfolio-content-img" alt="Mesas" style="width: 400px; height: 250px; object-fit: cover;">
+                      <a href="{{ url('/sillas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloSillas.jpeg" class="img-fluid portfolio-content-img" alt="Sillas">
+                      <p>Sillas</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/periqueras.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="{{ url('/periqueras') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloPeriqueras.jpeg" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <p>Periquera</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/carpa.jpeg" class="img-fluid portfolio-content-img" alt="Carpas" style="width: 400px; height: 250px; object-fit: cover;">
+                      <a href="{{ url('/carpas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloCarpas.jpeg" class="img-fluid portfolio-content-img" alt="Carpas">
+                      <p>Carpas</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/espejo1.jpeg" class="img-fluid portfolio-content-img" alt="Espejos" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="portfolio-espejos.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloEspejo.jpeg" class="img-fluid portfolio-content-img" alt="Espejos">
+                      <p>Espejos</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/letrasIluminadas.jpeg" class="img-fluid portfolio-content-img" alt="Letras Iluminadas" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="portfolio-letrasIluminadas.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloLetrasIluminadas.jpeg" class="img-fluid portfolio-content-img" alt="Letras Iluminadas">
+                      <p>Letras Iluminadas</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/bebidas.jpeg" class="img-fluid portfolio-content-img" alt="Barra De Bebidas" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="portfolio-BarraDeBebidas.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloBarraDeBebidas.jpeg" class="img-fluid portfolio-content-img" alt="Barra De Bebidas">
+                      <p>Barra de bebidas</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/serviciosDeAlimentos2.jpeg" class="img-fluid portfolio-content-img" alt="Servicios de Alimentos" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="portfolio-ServicioDeAlimentos.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloServicioDeAlimentos.jpeg" class="img-fluid portfolio-content-img" alt="Servicios de Alimentos">
+                      <p>Servicio de alimentos</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/sonido.jpeg" class="img-fluid portfolio-content-img" alt="Sonido" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="portfolio-Sonido.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloSonido.jpeg" class="img-fluid portfolio-content-img" alt="Sonido">
+                      <p>Sonido</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/maquinaEspuma.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="portfolio-MaquinaEspuma.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloMaquinaEspuma.jpeg" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <p>Maquina de espuma</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div><!-- End Portfolio Container -->
+            </div>
+
+          </div><!-- End Row Grid -->
+
+        </div><!-- End Isotope Layout Wrapper -->
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">MyPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
