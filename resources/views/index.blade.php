@@ -186,13 +186,12 @@
                     </ul>
                   </li>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Salas
-                    </a>
-                    <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Salas lounge</a></li>
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Espejos de Bienvenida</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="{{ url('/salasLounge') }}">Salas lounge</a>
                   </li>
 
                   <li class="nav-item dropdown">
@@ -213,17 +212,6 @@
 
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Letras y numeros iluminados</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Mas de 40 shows
-                    </a>
-                    <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Shows infantiles</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Payaso</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Animación baby shower</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pinta caritas</a></li>
-                    </ul>
                   </li>
 
                   <li class="nav-item dropdown">
@@ -442,6 +430,20 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/salaLounge.jpeg" class="img-fluid portfolio-content-img" alt="Sala Lounge" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="{{ url('/salasLounge') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloSalaLounge.jpeg" class="img-fluid portfolio-content-img" alt="Sala Lounge">
+                      <p>Salas Lounge</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/carpa.jpeg" class="img-fluid portfolio-content-img" alt="Carpas" style="width: 400px; height: 250px; object-fit: cover;">
                       <a href="{{ url('/carpas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
@@ -457,7 +459,7 @@
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/espejo1.jpeg" class="img-fluid portfolio-content-img" alt="Espejos" style="width: 400px; height: 350px; object-fit: cover;">
-                      <a href="portfolio-espejos.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                      <a href="{{ url('/espejos') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
                       <img src="assets/img/enGlobo/tituloEspejo.jpeg" class="img-fluid portfolio-content-img" alt="Espejos">
@@ -471,7 +473,7 @@
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/letrasIluminadas.jpeg" class="img-fluid portfolio-content-img" alt="Letras Iluminadas" style="width: 400px; height: 350px; object-fit: cover;">
-                      <a href="portfolio-letrasIluminadas.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                      <a href="{{ url('/letrasIluminadas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
                       <img src="assets/img/enGlobo/tituloLetrasIluminadas.jpeg" class="img-fluid portfolio-content-img" alt="Letras Iluminadas">
@@ -485,7 +487,7 @@
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/bebidas.jpeg" class="img-fluid portfolio-content-img" alt="Barra De Bebidas" style="width: 400px; height: 350px; object-fit: cover;">
-                      <a href="portfolio-BarraDeBebidas.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                      <a href="{{ url('/barraDeBebidas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
                       <img src="assets/img/enGlobo/tituloBarraDeBebidas.jpeg" class="img-fluid portfolio-content-img" alt="Barra De Bebidas">
@@ -499,7 +501,7 @@
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/serviciosDeAlimentos2.jpeg" class="img-fluid portfolio-content-img" alt="Servicios de Alimentos" style="width: 400px; height: 350px; object-fit: cover;">
-                      <a href="portfolio-ServicioDeAlimentos.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                      <a href="{{ url('/servicioDeAlimentos') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
                       <img src="assets/img/enGlobo/tituloServicioDeAlimentos.jpeg" class="img-fluid portfolio-content-img" alt="Servicios de Alimentos">

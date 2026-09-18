@@ -33,3 +33,23 @@ Route::get('/decoracion', function () {
 Route::get('/periqueras', function () {
     return view('periqueras');
 });
+
+Route::get('/espejos', function () {
+    return view('espejos');
+});
+
+Route::get('/letrasIluminadas', function () {
+    return view('letrasIluminadas');
+});
+
+Route::get('/barraDeBebidas', function () {
+    return view('barraDeBebidas');
+});
+
+Route::get('/servicioDeAlimentos', function () {
+    return view('servicioDeAlimentos');
+});
+
+Route::get('/salasLounge', function () {
+    return view('salasLounge');
+});
