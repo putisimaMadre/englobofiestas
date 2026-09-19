@@ -53,3 +53,35 @@ Route::get('/servicioDeAlimentos', function () {
 Route::get('/salasLounge', function () {
     return view('salasLounge');
 });
+
+Route::get('/vajilla', function () {
+    return view('vajilla');
+});
+
+Route::get('/pistaBaile', function () {
+    return view('pistaBaile');
+});
+
+Route::get('/masDe40', function () {
+    return view('masDe40');
+});
+
+Route::get('/puestosDeFeria', function () {
+    return view('puestosDeFeria');
+});
+
+Route::get('/batucadasYactivaciones', function () {
+    return view('batucadasYactivaciones');
+});
+
+Route::get('/depositoCervezasYrefresco', function () {
+    return view('depositoCervezasYrefresco');
+});
+
+Route::get('/sonido', function () {
+    return view('sonido');
+});
+
+Route::get('/maquinaEspuma', function () {
+    return view('maquinaEspuma');
+});

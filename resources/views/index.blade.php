@@ -472,7 +472,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
-                      <img src="assets/img/enGlobo/letrasIluminadas.jpeg" class="img-fluid portfolio-content-img" alt="Letras Iluminadas" style="width: 400px; height: 350px; object-fit: cover;">
+                      <img src="assets/img/enGlobo/letrasIluminadas.jpeg" class="img-fluid portfolio-content-img" alt="Letras Iluminadas" style="object-fit: cover;">
                       <a href="{{ url('/letrasIluminadas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
@@ -515,7 +515,7 @@
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/sonido.jpeg" class="img-fluid portfolio-content-img" alt="Sonido" style="width: 400px; height: 350px; object-fit: cover;">
-                      <a href="portfolio-Sonido.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                      <a href="{{ url('/sonido') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
                       <img src="assets/img/enGlobo/tituloSonido.jpeg" class="img-fluid portfolio-content-img" alt="Sonido">
@@ -529,11 +529,95 @@
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/maquinaEspuma.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
-                      <a href="portfolio-MaquinaEspuma.html" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                      <a href="{{ url('/maquinaEspuma') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
                       <img src="assets/img/enGlobo/tituloMaquinaEspuma.jpeg" class="img-fluid portfolio-content-img" alt="Periquera">
                       <p>Maquina de espuma</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/vajilla.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="{{ url('/vajilla') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloVajilla.png" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <p>Vajilla</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/pistaBaile.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
+                      <a href="{{ url('/pistaBaile') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloPistaBaile.png" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <p>Pista de Baile</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/masDe40.png" class="img-fluid portfolio-content-img" alt="Periquera" style="object-fit: cover;">
+                      <a href="{{ url('/masDe40') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloMasDe40.png" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <p>Mas de 40 shows</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/puestosDeFeria.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="object-fit: cover;">
+                      <a href="{{ url('/puestosDeFeria') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloPuestosDeFeria.png" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <p>Puestos de feria</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/batucadaYactivaciones.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="object-fit: cover;">
+                      <a href="{{ url('/batucadasYactivaciones') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloBatucada.png" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <p>Batucadas y Activaciones</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <div class="portfolio-wrap-azul">
+                    <div class="portfolio-image-container">
+                      <img src="assets/img/enGlobo/deposito.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="object-fit: cover;">
+                      <a href="{{ url('/depositoCervezasYrefresco') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
+                    </div>
+                    <div class="portfolio-info-text">
+                      <img src="assets/img/enGlobo/tituloCervezas.jpeg" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <p>Deposito de cerveza y refresco</p>
                     </div>
                   </div>
                 </div>
