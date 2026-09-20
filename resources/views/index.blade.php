@@ -86,12 +86,12 @@
             <div class="col-lg-12 text-center align-items-center">
               <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                 <li data-filter="*" class="filter-active titulo-rosa">Todos</li>
-                <li data-filter=".filter-app" class="titulo-verde">Inflables</li>
-                <li data-filter=".filter-product" class="titulo-anaranjado">Mobiliario</li>
-                <li data-filter=".filter-branding" class="titulo-rosa">Snacks</li>
-                <li data-filter=".filter-books" class="titulo-anaranjado">Alimentos</li>
-                <li data-filter=".filter-books" class="titulo-verde">Espectáculo</li>
-                <li data-filter=".filter-books" class="titulo-rosa">Entretenimiento</li>
+                <li data-filter=".filter-inflables" class="titulo-verde">Inflables</li>
+                <li data-filter=".filter-decoracion" class="titulo-anaranjado">Decoración</li>
+                <li data-filter=".filter-movil" class="titulo-rosa">Mobiliario</li>
+                <li data-filter=".filter-alimentos" class="titulo-verde">Alimentos Snacks y Bebidas</li>
+                <li data-filter=".filter-show" class="titulo-anaranjado">Shows y Animación</li>
+                <li data-filter=".filter-audio" class="titulo-rosa">Audio e Iluminación</li>
               </ul>
             </div>
           </div>
@@ -133,172 +133,269 @@
 
                     </ul>
                   </li>
+<!--Carpas-->
+                  <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#carpas') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                    <!--<a class="dropdown-item glightbox" href="assets/img/enGlobo/inflables1/i2.jpeg" data-gallery="galeria-toros">-->
+                            <b class="titulo-amarillo2">Carpas</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Carpas
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Lonas</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Carpas convensional</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Carpa elegante</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Carpa transparente</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Cortinas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/carpas') }}#lonas">Lonas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/carpas') }}#carpaConvencional">Carpas convensional</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/carpas') }}#carpaElegante">Carpa elegante</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/carpas') }}#carpaTransparante">Carpa transparente</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/carpas') }}#cortinas">Cortinas</a></li>
                     </ul>
-                  </li>
+                </li>
+<!--Mesas-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#mesas') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Mesas</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Mesas
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Redonda</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Tablón</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Imperial</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">California</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mesa de Masa pic nic</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mesa con sombrilla</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mesa love</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mesa infantil</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/mesas') }}#mesaRedonda">Mesa Redonda</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/mesas') }}#mesaTablon">Mesa Tablon</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/mesas') }}#mesaImperial">Mesa Imperial</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/mesas') }}#mesaCalifornia">Mesa California</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/mesas') }}#mesaPicNic">Mesa PicNic</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/mesas') }}#mesaDeSombrilla">Mesa de Sombrilla</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/mesas') }}#mesaLove">Mesa Love</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/mesas') }}#mesaInfantil">Mesa Infantil</a></li>
                     </ul>
-                  </li>
+                </li>
+<!--Sillas-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#sillas') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Sillas</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Sillas
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Sillas Plegables</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Sillas Tiffany</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Sillas crossback</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Sillón para novios y xv años</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/sillas') }}#sillasPlegable">Silla Plegable</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/sillas') }}#sillasTiffany">Silla Tiffany</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/sillas') }}#sillasCrossbar">Silla Crossbar</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/sillas') }}#sillonXV">Sillon XV</a></li>
                     </ul>
-                  </li>
+                </li>
+<!--Periqueras-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#periqueras') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Periqueras</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Periqueras
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Periqueras tipo bar</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Periqueras vintage</a></li>
-                      
+                        <li><a class="dropdown-item" href="{{ url('/periqueras') }}#periquerasBar">Periquera Bar</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/periqueras') }}#periqueraVintage">Periquera Vintage</a></li>
                     </ul>
-                  </li>
-
-                  <li class="nav-item">
+                </li>
+<!--Espejos-->
+                  <li class="nav-item w-100">
                     <a class="nav-link text-dark" href="#">Espejos de Bienvenida</a>
                   </li>
-
+<!--Salas Lounge-->
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="{{ url('/salasLounge') }}">Salas lounge</a>
                   </li>
+<!--mas de 40 shows-->
+                  <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#masDe40') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Mas de 40 shows</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Mas de 40 shows
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Shows infantiles</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Payaso</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Animación baby shower</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pinta caritas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/masDe40') }}#showInfantil">Shows Infantiles</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/masDe40') }}#payasos">Payasos</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/masDe40') }}#baby">Activacón Baby Shower</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/masDe40') }}#pintaCaritas">Pinta Caritas</a></li>
                     </ul>
-                  </li>
-
+                </li>
+<!--Puestos de feria-->
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Puesto de Feria</a>
                   </li>
-
+<!--Letras y numeros iluminados-->
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Letras y numeros iluminados</a>
                   </li>
+<!--Barras de Snacks-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#snacks') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Barra de Snacks</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Barras de Snacks
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Esquites</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Dorilocos</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Elotes</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Snaks</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Maruchan</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Fresas con crema y duraznos</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mini hotcackes</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Maquina de helados suaves</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Fuente de chocolate</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Postres</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Bebidas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#esquites">Esquites</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#dorilocos">Dorilocos</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#elotes">Elotes</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#snaks">Snaks</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#maruchan">Maruchan</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#fresas">Fresas con crema y duraznos</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#miniH">Mini hotcackes</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#maquinaDeH">Maquina de helados suaves</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#fuenteDC">Fuente de chocolate</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#postres">Postres</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/snacks') }}#bebidas">Bebidas</a></li>
                     </ul>
-                  </li>
+                </li>
+<!--Barras de bebidas-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#barraDeBebidas') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Barra de Bebidas</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Barras de Bebidas
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Micheladas</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Cockteleria</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Barra libre</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/barraDeBebidas') }}#micheladas">Micheladas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/barraDeBebidas') }}#cockteleria">Cockteleria</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/barraDeBebidas') }}#barraLibre">Barra libre</a></li>
                     </ul>
-                  </li>
+                </li>
+<!--Servicio de Alimentos-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#servicioDeAlimentos') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Servicio de Alimentos</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Servicio de Alimentos
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Taquizas de guisados</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Tacos al pastor</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Menu en tres tiempos</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Mixiotes</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Carnitas</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Barbacoa</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pozole</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Parrillada argentina</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Parrillada mexicana</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Parrilla suiza</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Hamburguesa y hot dogs</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Birria</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Desayunos ejecutivo</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Desayuno americano</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Desayuno buffet</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Caffe brake</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#taquizasDeGuisado">Taquizas de guisados</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#tacosAlPastor">Tacos al pastor</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#menuEnTresTiempos">Menu en tres tiempos</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#mixiotes">Mixiotes</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#carnitas">Carnitas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#barbacoa">Barbacoa</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#pozole">Pozole</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#parrilladaArgentina">Parrillada argentina</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#parrilladaMexicana">Parrillada mexicana</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#parrillaSuiza">Parrilla suiza</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#hamburguesasYHotDog">Hamburguesa y hot dogs</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#birria">Birria</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#desayunosEjecutivos">Desayunos ejecutivo</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#desayunoAmericano">Desayuno americano</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#desayunosBuffet">Desayuno buffet</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/servicioDeAlimentos') }}#coffeeBreak">Coffee break</a></li>
                     </ul>
-                  </li>
+                </li>
+<!--Vajilla-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#vajilla') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Vajilla</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Vajilla
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Cristalería y plaque</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Plato de barro</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Plato base</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Plato: ondo, medio, trinche, pastelero</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Copas</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Vasos</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Tazas</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Hieleras grandes</a></li>
-                    </ul>
-                  </li>
+                        <li><a class="dropdown-item" href="{{ url('/vajilla') }}#cristaleriaYPlaque">Cristalería y plaque</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/vajilla') }}#platoDeBarro">Plato de barro</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/vajilla') }}#platoBase">Plato base</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/vajilla') }}#platoOndoMedio">Plato: ondo, medio, trinche, pastelero</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/vajilla') }}#copas">Copas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/vajilla') }}#vasos">Vasos</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/vajilla') }}#tazas">Tazas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/vajilla') }}#hielerasGrandes">Hieleras grandes</a></li>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Decoraciónes
-                    </a>
+                    </ul>
+                </li>
+<!--Decoraciónes-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#decoracion') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Decoraciónes</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
+
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Globos</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Telas</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Flores</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Luces</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/decoracion') }}#globos">Globos</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/decoracion') }}#telas">Telas</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/decoracion') }}#flores">Flores</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/decoracion') }}#luces">Luces</a></li>
                     </ul>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Espejo bienvenida</a>
-                  </li>
+                </li>
 
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Depósitos de cerveza y refrescos</a>
@@ -343,7 +440,7 @@
               <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
                 
                 <!-- Ítem 1 (Inflables - Pertenece a filter-app) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-inflables">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/inflables1.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
@@ -357,7 +454,7 @@
                 </div>
 
                 <!-- Ítem 1 (Inflables - Pertenece a filter-app) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-alimentos">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/barraDeSnacks.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
@@ -371,7 +468,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-decoracion">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/decoracion2.jpeg" class="img-fluid portfolio-content-img" alt="Decoracion" style="width: 400px; height: 250px; object-fit: cover;">
@@ -385,7 +482,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil" id="mesas">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/mesa2.jpeg" class="img-fluid portfolio-content-img" alt="Mesas" style="width: 400px; height: 250px; object-fit: cover;">
@@ -399,7 +496,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/sillas.jpeg" class="img-fluid portfolio-content-img" alt="Mesas" style="width: 400px; height: 250px; object-fit: cover;">
@@ -413,7 +510,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/periqueras.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
@@ -427,7 +524,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/salaLounge.jpeg" class="img-fluid portfolio-content-img" alt="Sala Lounge" style="width: 400px; height: 350px; object-fit: cover;">
@@ -441,7 +538,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil" id="carpas">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/carpa.jpeg" class="img-fluid portfolio-content-img" alt="Carpas" style="width: 400px; height: 250px; object-fit: cover;">
@@ -455,7 +552,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/espejo1.jpeg" class="img-fluid portfolio-content-img" alt="Espejos" style="width: 400px; height: 350px; object-fit: cover;">
@@ -469,7 +566,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/letrasIluminadas.jpeg" class="img-fluid portfolio-content-img" alt="Letras Iluminadas" style="object-fit: cover;">
@@ -483,7 +580,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-alimentos">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/bebidas.jpeg" class="img-fluid portfolio-content-img" alt="Barra De Bebidas" style="width: 400px; height: 350px; object-fit: cover;">
@@ -497,7 +594,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-alimentos">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/serviciosDeAlimentos2.jpeg" class="img-fluid portfolio-content-img" alt="Servicios de Alimentos" style="width: 400px; height: 350px; object-fit: cover;">
@@ -511,7 +608,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-audio">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/sonido.jpeg" class="img-fluid portfolio-content-img" alt="Sonido" style="width: 400px; height: 350px; object-fit: cover;">
@@ -525,7 +622,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-show">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/maquinaEspuma.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
@@ -539,7 +636,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/vajilla.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
@@ -553,7 +650,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/pistaBaile.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
@@ -567,7 +664,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-show">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/masDe40.png" class="img-fluid portfolio-content-img" alt="Periquera" style="object-fit: cover;">
@@ -581,7 +678,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-alimentos">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/puestosDeFeria.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="object-fit: cover;">
@@ -595,7 +692,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-show">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/batucadaYactivaciones.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="object-fit: cover;">
@@ -609,7 +706,7 @@
                 </div>
 
                 <!-- Ítem 3 (Decoración - Pertenece a filter-branding) -->
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-alimentos">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
                       <img src="assets/img/enGlobo/deposito.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="object-fit: cover;">

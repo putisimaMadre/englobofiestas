@@ -61,7 +61,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title light-background">
+    <div class="page-title light-background" id="esquites">
       <div class="portfolio-item">
         <a href="{{ url('/') }}">
           <img src="assets/img/enGlobo/regresarBoton2.png" class="btn-regresar" alt="Regresar">
@@ -74,7 +74,7 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="dorilocos">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -88,7 +88,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="elotes">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="snaks">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -116,7 +116,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="maruchan">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -130,7 +130,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="fresas">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -144,7 +144,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="miniH">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -158,7 +158,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="maquinaDeH">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -172,7 +172,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="fuenteDC">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -186,7 +186,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="postres">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -200,7 +200,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="bebidas">
 
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
@@ -215,7 +215,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="bebidas">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">

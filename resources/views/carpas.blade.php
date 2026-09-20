@@ -61,7 +61,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title light-background">
+    <div class="page-title light-background" id="lonas">
       <div class="portfolio-item">
         <a href="{{ url('/') }}">
           <img src="assets/img/enGlobo/regresarBoton2.png" class="btn-regresar" alt="Regresar">
@@ -74,7 +74,7 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="carpaConvencional">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -88,21 +88,21 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="carpaElegante">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
               <img src="assets/img/enGlobo/carpaConvencional.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
             </div>
             
-            <div class="col-6 col-md-4 offset-md-4">
+            <div class="col-6 col-md-4 offset-md-4" id="carpaConvencional">
               <a href="assets/img/enGlobo/inflables1/i12e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
                 <img src="assets/img/enGlobo/inflables1/i12e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
               </a>
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="carpaTransparante">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -116,7 +116,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="cortinas">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -130,7 +130,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="cortinas">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">

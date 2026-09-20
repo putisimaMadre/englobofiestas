@@ -1,0 +1,24 @@
+renta de inflables
+mesas de todo tipo
+sillas de todo tipo
+periqueras de todo tipo
+espejos de bienvenida
+salas lounge
+mas de 40 shows (son mas de 40 shows)
+puestos de feria (comida)
+letras y numeros iluminados
+barra de snacks
+barra de bebidas
+servicio de alimentos
+decoraciones con globos y luces
+deposito de cerveza y refresco
+sonido y rocolas
+batucada y activaciones
+pistas de baile
+
+<li data-filter="*" class="filter-active titulo-rosa">Todos</li>
+<li data-filter=".filter-inflables" class="titulo-verde">Inflables</li>
+<li data-filter=".filter-movil" class="titulo-anaranjado">Mobiliario</li>
+<li data-filter=".filter-alimentos" class="titulo-rosa">Alimentos Snacks y bebidas</li>
+<li data-filter=".filter-show" class="titulo-rosa">Shows y Animación</li>
+<li data-filter=".filter-audio" class="titulo-rosa">Audio e Iluminación</li>

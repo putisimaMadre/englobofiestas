@@ -61,7 +61,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title light-background">
+    <div class="page-title light-background" id="micheladas">
       <div class="portfolio-item">
         <a href="{{ url('/') }}">
           <img src="assets/img/enGlobo/regresarBoton2.png" class="btn-regresar" alt="Regresar">
@@ -88,7 +88,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="cockteleria">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4" id="barraLibre">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
