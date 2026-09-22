@@ -404,32 +404,51 @@
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Sonido y rockolas</a>
                   </li>
+<!--Batucada y activaciones-->
+                <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/#decoracion') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Batucada y Activaciones</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Batucada y activaciones
-                    </a>
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Caffe brake</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Robot Iluminado</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Cabezones (la máscara, Bad Bunny, Casimiro "banda el mexicano" )</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Zanqueros iluminados</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Zanqueros tradicional</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Maestro de ceremonia</a></li>
-                      
+                        <li><a class="dropdown-item" href="{{ url('/batucadasYactivaciones') }}#robotIluminado">Robot Iluminado</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/batucadasYactivaciones') }}#cabezones">Cabezones (la máscara, Bad Bunny, Casimiro "banda el mexicano")</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/batucadasYactivaciones') }}#zanquerosIluminados">Zanqueros iluminados</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/batucadasYactivaciones') }}#zanquerosTradicional">Zanqueros tradicional</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/batucadasYactivaciones') }}#maestroDeCeremonia">Maestro de ceremonia</a></li>
                     </ul>
-                  </li>
+                </li>
+<!--Pistas-->
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark d-flex justify-content-between align-items-center" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                      Pistas
-                    </a>
+                  <li class="nav-item dropdown w-100">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Enlace principal que te lleva a la sección -->
+                        <a href="{{ url('/pistaBaile') }}" class="text-dark text-decoration-start flex-grow-1 py-2">
+                            <b class="titulo-amarillo2">Pistas</b>
+                        </a>
+                        
+                        <!-- Botón exclusivo para desplegar el menú, alineado a la derecha -->
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0 text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                    </div>
+
+                    <!-- Menú desplegable -->
                     <ul class="dropdown-menu w-100">
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pista Iluminada</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Pista de Madera</a></li>
-                      <li><a class="dropdown-item" href="portfolio-snacks.html#dulces">Templete</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/pistaBaile') }}#pistaIluminada">Pista Iluminada</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/pistaBaile') }}#pistaDeMadera">Pista de Madera</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/pistaBaile') }}#templete">Templete</a></li>
                     </ul>
-                  </li>
+                </li>
 
                 </ul>
               </aside>
