@@ -476,12 +476,11 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-inflables">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
-                      <img src="assets/img/enGlobo/inflables1.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <img src="assets/img/enGlobo/ori/inflables.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
                       <a href="{{ url('/inflables') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloInflables.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
-                      <p>Inflables</p>
+                      <img src="assets/img/enGlobo/ori/inflables.png" class="img-fluid portfolio-content-img" alt="Inflable">
                     </div>
                   </div>
                 </div>
@@ -490,12 +489,11 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-alimentos">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
-                      <img src="assets/img/enGlobo/barraDeSnacks.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <img src="assets/img/enGlobo/ori/barraSnacks.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
                       <a href="{{ url('/snacks') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloBarraSnacks.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
-                      <p>Barra de Snacks</p>
+                      <img src="assets/img/enGlobo/ori/barraDeSnacks.png" class="img-fluid portfolio-content-img" alt="Inflable">
                     </div>
                   </div>
                 </div>
@@ -504,12 +502,11 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-decoracion">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
-                      <img src="assets/img/enGlobo/decoracion2.jpeg" class="img-fluid portfolio-content-img" alt="Decoracion" style="width: 400px; height: 250px; object-fit: cover;">
+                      <img src="/assets/img/enGlobo/ori/decoracion.jpeg" class="img-fluid portfolio-content-img" alt="Decoracion" style="width: 400px; height: 250px; object-fit: cover;">
                       <a href="{{ url('/decoracion') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloDecoracion.jpeg" class="img-fluid portfolio-content-img" alt="Inflable">
-                      <p>Decoración</p>
+                      <img src="assets/img/enGlobo/ori/decoracion.png" class="img-fluid portfolio-content-img" alt="Inflable">
                     </div>
                   </div>
                 </div>
@@ -518,12 +515,11 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil" id="mesas">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
-                      <img src="assets/img/enGlobo/mesa2.jpeg" class="img-fluid portfolio-content-img" alt="Mesas" style="width: 400px; height: 250px; object-fit: cover;">
+                      <img src="assets/img/enGlobo/ori/mesas.jpeg" class="img-fluid portfolio-content-img" alt="Mesas" style="width: 400px; height: 250px; object-fit: cover;">
                       <a href="{{ url('/mesas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloMesa.jpeg" class="img-fluid portfolio-content-img" alt="Mesas">
-                      <p>Mesas</p>
+                      <img src="assets/img/enGlobo/ori/mesas.png" class="img-fluid portfolio-content-img" alt="Mesas">
                     </div>
                   </div>
                 </div>
@@ -546,12 +542,11 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-movil">
                   <div class="portfolio-wrap-azul">
                     <div class="portfolio-image-container">
-                      <img src="assets/img/enGlobo/periqueras.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
+                      <img src="assets/img/enGlobo/ori/periqueras.jpeg" class="img-fluid portfolio-content-img" alt="Periquera" style="width: 400px; height: 350px; object-fit: cover;">
                       <a href="{{ url('/periqueras') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloPeriqueras.jpeg" class="img-fluid portfolio-content-img" alt="Periquera">
-                      <p>Periquera</p>
+                      <img src="assets/img/enGlobo/ori/periqueras.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
