@@ -77,8 +77,12 @@
     if (scrollTop) {
       window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
     }
+    
   }
   scrollTop.addEventListener('click', (e) => {
+    if (window.location.pathname !== '/' && window.location.pathname !== '/') {
+      return; // Sale de la función y permite que el navegador cambie de página
+    }
     e.preventDefault();
     window.scrollTo({
       top: 0,

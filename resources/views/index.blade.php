@@ -82,16 +82,30 @@
             </div>
           </div>
 
+          <!--<div class="row">
+            <div class="col-lg-12 text-center align-items-center">
+              <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="titulo-rosa"><img src="assets/img/enGlobo/todosBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 85px; object-fit: contain;"></li>
+                <li data-filter=".filter-inflables" class="titulo-verde"><img src="assets/img/enGlobo/inflablesBoton2.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-decoracion" class="titulo-anaranjado"><img src="assets/img/enGlobo/decoracionBoton2.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-movil" class="titulo-rosa"><img src="assets/img/enGlobo/mobiliarioBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-alimentos" class="titulo-verde"><img src="assets/img/enGlobo/alimentosBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;"></li>
+                <li data-filter=".filter-show" class="titulo-anaranjado">Shows y Animación</li>
+                <li data-filter=".filter-audio" class="titulo-rosa">Audio e Iluminación</li>
+              </ul>
+            </div>
+          </div>-->
+
           <div class="row">
             <div class="col-lg-12 text-center align-items-center">
               <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                <li data-filter="*" class="filter-active titulo-rosa">Todos</li>
-                <li data-filter=".filter-inflables" class="titulo-verde">Inflables</li>
-                <li data-filter=".filter-decoracion" class="titulo-anaranjado">Decoración</li>
-                <li data-filter=".filter-movil" class="titulo-rosa">Mobiliario</li>
-                <li data-filter=".filter-alimentos" class="titulo-verde">Alimentos Snacks y Bebidas</li>
-                <li data-filter=".filter-show" class="titulo-anaranjado">Shows y Animación</li>
-                <li data-filter=".filter-audio" class="titulo-rosa">Audio e Iluminación</li>
+                <li data-filter="*" class="filter-active titulo-rosa"><img src="assets/img/enGlobo/todoBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-inflables" class="titulo-verde"><img src="assets/img/enGlobo/inflablesBoton2.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-decoracion" class="titulo-anaranjado"><img src="assets/img/enGlobo/decoracionBoton2.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-movil" class="titulo-rosa"><img src="assets/img/enGlobo/mobiliarioBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-alimentos" class="titulo-verde"><img src="assets/img/enGlobo/alimentosYsnacksBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-show" class="titulo-anaranjado"><img src="assets/img/enGlobo/showsBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
+                <li data-filter=".filter-audio" class="titulo-rosa"><img src="assets/img/enGlobo/sonidoBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
               </ul>
             </div>
           </div>
@@ -767,7 +781,10 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+   <a href="#" class="scroll-top d-flex align-items-center justify-content-center text-decoration-none" style="background: none; width: auto; height: auto;">
+    <img src="assets/img/enGlobo/subir.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 100px; object-fit: contain;">
+    </a>
+  <!--<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>-->
 
   <!-- Preloader -->
   <div id="preloader"></div>

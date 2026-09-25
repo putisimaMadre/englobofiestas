@@ -267,7 +267,11 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="{{ url('/') }}#mesas" class="scroll-top d-flex align-items-center justify-content-center text-decoration-none" style="background: none; width: auto; height: auto;">
+    <img src="{{ asset('assets/img/enGlobo/flechaRegresar.png') }}" alt="Inflables 3x3" class="img-fluid" style="max-height: 100px; object-fit: contain;">
+  </a>
+  <!-- Scroll Top -->
+  <!--<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>-->
 
   <!-- Preloader -->
   <div id="preloader"></div>
