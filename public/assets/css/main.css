@@ -1841,6 +1841,14 @@ body.mobile-nav-active .header .navmenu ul li a {
       color: #f65b23f6 !important; /* Verde brillante */
     }
 
+    .titulo-azul {
+      color: #7DAED3 !important; /* Verde brillante */
+    }
+
+    .titulo-azul-fuerte {
+      color: #041562 !important; /* Verde brillante */
+    }
+
 
   /* 1. Forzar color absoluto en los filtros de la lista */
   ul.portfolio-filters li.titulo-rosa {

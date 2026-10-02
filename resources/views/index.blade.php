@@ -48,7 +48,8 @@
     
     <!-- Enlace y Banner -->
     <a href="index.html" class="logo-link-extremo">
-      <img src="assets/img/enGlobo/logoEnfiestasLogoM2.jpeg" alt="EnGloboFiestas" class="logo-extremo-img">
+      <!--<img src="assets/img/enGlobo/sillas.jpeg" class="img-fluid portfolio-content-img" alt="Mesas" style="width: 400px; height: 250px; object-fit: cover;">-->
+      <img src="assets/img/enGlobo/logoEnglobo.jpeg" alt="EnGloboFiestas" class="logo-extremo-img" style="width: 100%; height: 100%; object-fit: cover;">
     </a>
 
     <!-- Navegación -->
@@ -77,7 +78,7 @@
           <!-- ENCABEZADO Y FILTROS -->
           <div class="row align-items-center mb-4">
             <div class="col-lg-12 text-center">
-              <h1 class="tituloPrincipal titulo-rosa">Somos la mejor opción para tus eventos</h1>
+              <h1 class="tituloPrincipal titulo-azul-fuerte">Somos la mejor opción para tus eventos</h1>
               <p class="titulo-anaranjado">Visita una amplia gama de servicios, mobiliario...</p>
             </div>
           </div>
@@ -96,7 +97,7 @@
             </div>
           </div>-->
 
-          <div class="row">
+          <!--<div class="row">
             <div class="col-lg-12 text-center align-items-center">
               <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                 <li data-filter="*" class="filter-active titulo-rosa"><img src="assets/img/enGlobo/todoBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
@@ -108,7 +109,7 @@
                 <li data-filter=".filter-audio" class="titulo-rosa"><img src="assets/img/enGlobo/sonidoBoton.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 150px; object-fit: contain;"></li>
               </ul>
             </div>
-          </div>
+          </div>-->
 
           <!-- ESTRUCTURA EN DOS COLUMNAS -->
           <div class="row gy-4">
@@ -480,7 +481,7 @@
                       <a href="{{ url('/inflables') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/ori/inflables.png" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <img src="assets/img/enGlobo/ori/inflablesTitulo.png" class="img-fluid portfolio-content-img" alt="Inflable">
                     </div>
                   </div>
                 </div>
@@ -493,7 +494,7 @@
                       <a href="{{ url('/snacks') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/ori/barraDeSnacks.png" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <img src="assets/img/enGlobo/ori/barraDeSnacksTitulo.png" class="img-fluid portfolio-content-img" alt="Inflable">
                     </div>
                   </div>
                 </div>
@@ -506,7 +507,7 @@
                       <a href="{{ url('/decoracion') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/ori/decoracion.png" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <img src="assets/img/enGlobo/ori/decoracionTitulo.png" class="img-fluid portfolio-content-img" alt="Inflable">
                     </div>
                   </div>
                 </div>
@@ -519,7 +520,7 @@
                       <a href="{{ url('/mesas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/ori/mesas.png" class="img-fluid portfolio-content-img" alt="Mesas">
+                      <img src="assets/img/enGlobo/ori/mesasTitulo.png" class="img-fluid portfolio-content-img" alt="Mesas">
                     </div>
                   </div>
                 </div>
@@ -532,8 +533,7 @@
                       <a href="{{ url('/sillas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloSillas.jpeg" class="img-fluid portfolio-content-img" alt="Sillas">
-                      <p>Sillas</p>
+                      <img src="assets/img/enGlobo/ori/sillasTitulo.png" class="img-fluid portfolio-content-img" alt="Sillas">
                     </div>
                   </div>
                 </div>
@@ -546,7 +546,7 @@
                       <a href="{{ url('/periqueras') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/ori/periqueras.png" class="img-fluid portfolio-content-img" alt="Periquera">
+                      <img src="assets/img/enGlobo/ori/periquerasTitulo.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
@@ -559,8 +559,7 @@
                       <a href="{{ url('/salasLounge') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloSalaLounge.jpeg" class="img-fluid portfolio-content-img" alt="Sala Lounge">
-                      <p>Salas Lounge</p>
+                      <img src="assets/img/enGlobo/ori/salasLoungeTitulo.png" class="img-fluid portfolio-content-img" alt="Sala Lounge">
                     </div>
                   </div>
                 </div>
@@ -573,8 +572,7 @@
                       <a href="{{ url('/carpas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloCarpas.jpeg" class="img-fluid portfolio-content-img" alt="Carpas">
-                      <p>Carpas</p>
+                      <img src="assets/img/enGlobo/ori/carpasTitulo.png" class="img-fluid portfolio-content-img" alt="Carpas">
                     </div>
                   </div>
                 </div>
@@ -587,8 +585,7 @@
                       <a href="{{ url('/espejos') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloEspejo.jpeg" class="img-fluid portfolio-content-img" alt="Espejos">
-                      <p>Espejos</p>
+                      <img src="assets/img/enGlobo/ori/espejosTitulo.png" class="img-fluid portfolio-content-img" alt="Espejos">
                     </div>
                   </div>
                 </div>
@@ -601,8 +598,7 @@
                       <a href="{{ url('/letrasIluminadas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloLetrasIluminadas.jpeg" class="img-fluid portfolio-content-img" alt="Letras Iluminadas">
-                      <p>Letras Iluminadas</p>
+                      <img src="assets/img/enGlobo/ori/letrasIluminadasTitulo.png" class="img-fluid portfolio-content-img" alt="Letras Iluminadas">
                     </div>
                   </div>
                 </div>
@@ -615,8 +611,7 @@
                       <a href="{{ url('/barraDeBebidas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloBarraDeBebidas.jpeg" class="img-fluid portfolio-content-img" alt="Barra De Bebidas">
-                      <p>Barra de bebidas</p>
+                      <img src="assets/img/enGlobo/ori/barraDeBebidasTitulo.png" class="img-fluid portfolio-content-img" alt="Barra De Bebidas">
                     </div>
                   </div>
                 </div>
@@ -629,8 +624,7 @@
                       <a href="{{ url('/servicioDeAlimentos') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloServicioDeAlimentos.jpeg" class="img-fluid portfolio-content-img" alt="Servicios de Alimentos">
-                      <p>Servicio de alimentos</p>
+                      <img src="assets/img/enGlobo/ori/servicioTitulo.png" class="img-fluid portfolio-content-img" alt="Servicios de Alimentos">
                     </div>
                   </div>
                 </div>
@@ -643,8 +637,7 @@
                       <a href="{{ url('/sonido') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloSonido.jpeg" class="img-fluid portfolio-content-img" alt="Sonido">
-                      <p>Sonido</p>
+                      <img src="assets/img/enGlobo/ori/sonidoTitulo.png" class="img-fluid portfolio-content-img" alt="Sonido">
                     </div>
                   </div>
                 </div>
@@ -657,8 +650,7 @@
                       <a href="{{ url('/maquinaEspuma') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloMaquinaEspuma.jpeg" class="img-fluid portfolio-content-img" alt="Periquera">
-                      <p>Maquina de espuma</p>
+                      <img src="assets/img/enGlobo/ori/maquinaEspumaTitulo.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
@@ -671,8 +663,7 @@
                       <a href="{{ url('/vajilla') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloVajilla.png" class="img-fluid portfolio-content-img" alt="Periquera">
-                      <p>Vajilla</p>
+                      <img src="assets/img/enGlobo/ori/vajillaTitulo.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
@@ -685,8 +676,7 @@
                       <a href="{{ url('/pistaBaile') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloPistaBaile.png" class="img-fluid portfolio-content-img" alt="Periquera">
-                      <p>Pista de Baile</p>
+                      <img src="assets/img/enGlobo/ori/pistaBaileTitulo.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
@@ -699,8 +689,7 @@
                       <a href="{{ url('/masDe40') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloMasDe40.png" class="img-fluid portfolio-content-img" alt="Periquera">
-                      <p>Mas de 40 shows</p>
+                      <img src="assets/img/enGlobo/ori/mas40ShowsTitulo.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
@@ -713,8 +702,7 @@
                       <a href="{{ url('/puestosDeFeria') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloPuestosDeFeria.png" class="img-fluid portfolio-content-img" alt="Periquera">
-                      <p>Puestos de feria</p>
+                      <img src="assets/img/enGlobo/ori/puestosDeFeriaTitulo.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
@@ -727,8 +715,7 @@
                       <a href="{{ url('/batucadasYactivaciones') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloBatucada.png" class="img-fluid portfolio-content-img" alt="Periquera">
-                      <p>Batucadas y Activaciones</p>
+                      <img src="assets/img/enGlobo/ori/batucadaTitulo.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
@@ -741,8 +728,7 @@
                       <a href="{{ url('/depositoCervezasYrefresco') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/tituloCervezas.jpeg" class="img-fluid portfolio-content-img" alt="Periquera">
-                      <p>Deposito de cerveza y refresco</p>
+                      <img src="assets/img/enGlobo/ori/depositoTitulo.png" class="img-fluid portfolio-content-img" alt="Periquera">
                     </div>
                   </div>
                 </div>
