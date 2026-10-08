@@ -41,7 +41,7 @@
       
       <!-- Logo Centrado -->
       <a href="index.html" class="logo-link-extremo">
-      <img src="assets/img/enGlobo/tituloInflablesGrande.jpeg" alt="EnGloboFiestas" class="logo-extremo-img">
+      <img src="assets/img/enGlobo/imagenPrincipalInflables1.jpeg" alt="EnGloboFiestas" class="logo-extremo-img">
     </a>
 
       <!-- Navegación a la derecha -->
@@ -78,18 +78,18 @@
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
-            <img src="assets/img/enGlobo/inflables3x3.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+            <img src="assets/img/enGlobo/inflables3x3New.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4 offset-md-2">
-              <a href="assets/img/enGlobo/inflables1/i12e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i12e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i12o.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i12o.png" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables2/i3x3_2e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables2/i3x3_2e.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables2/i3x3_2o.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables2/i3x3_2o.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
               </a>
             </div>
 
@@ -98,24 +98,24 @@
         <div class="row gy-4">
         <!--==================.  3x4 ====================-->
           <div class="text-center">
-           <img src="assets/img/enGlobo/inflables3x4.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+           <img src="assets/img/enGlobo/3x4.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i13e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i13e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i13.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i13.png" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i14e.png" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i14e.png" alt="Inflable vista 2" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i14.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i14.png" alt="Inflable vista 2" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i21c.jfif" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i21c.jfif" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i21.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i21.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
@@ -124,30 +124,30 @@
         <div class="row gy-4">
         <!--==================.  3x6 ====================-->
           <div class="text-center">
-           <img src="assets/img/enGlobo/inflablesTitulos3x6.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+           <img src="assets/img/enGlobo/3x6.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i10e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i10e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i10.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i10.png" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i4e.png" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i4e.png" alt="Inflable vista 2" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i4.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i4.png" alt="Inflable vista 2" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i1e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i1e.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i1.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i1.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
 
             <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i19e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i19e.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i19.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i19.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
@@ -155,12 +155,12 @@
         <div class="row gy-4">
         <!--==================.  4x4 ====================-->
           <div class="text-center">
-           <img src="assets/img/enGlobo/inflablesTitulos4x4.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+           <img src="assets/img/enGlobo/4x4.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i5e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i5e.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i5.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i5.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
@@ -168,12 +168,12 @@
         <div class="row gy-4">
         <!--==================.  4x7 ====================-->
           <div class="text-center">
-           <img src="assets/img/enGlobo/inflables4x7.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+           <img src="assets/img/enGlobo/4x7.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i16.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i16.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i16.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i16.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
@@ -181,24 +181,24 @@
         <div class="row gy-4">
         <!--==================.  4x9 ====================-->
           <div class="text-center">
-           <img src="assets/img/enGlobo/inflablesTitulos4x9.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+           <img src="assets/img/enGlobo/4x9.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i20.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i20.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i20.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i20.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i9.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i9.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i9.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i9.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
 
             <div class="col-6 col-md-4">
-              <a href="assets/img/enGlobo/inflables1/i18.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i18.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables1/i18.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i18.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
@@ -206,12 +206,12 @@
         <div class="row gy-4">
         <!--==================.  5x5 ====================-->
           <div class="text-center">
-           <img src="assets/img/enGlobo/inflablesTitulos5x5.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+           <img src="assets/img/enGlobo/5x5.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4 offset-md-4">
               <a href="assets/img/enGlobo/inflables1/i2.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i2.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+                <img src="assets/img/enGlobo/inflables1/i2.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
@@ -219,12 +219,12 @@
         <div class="row gy-4">
         <!--==================.  6x7 ====================-->
           <div class="text-center">
-           <img src="assets/img/enGlobo/inflables6x7.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+           <img src="assets/img/enGlobo/6x7.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables2/i4.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables2/i4.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables2/i4.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables2/i4.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
@@ -232,12 +232,12 @@
         <div class="row gy-4">
         <!--==================.  12.50x4.5 ====================-->
           <div class="text-center">
-           <img src="assets/img/enGlobo/inflables12.5x4.5.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+           <img src="assets/img/enGlobo/12.5x.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
           </div>
             
             <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables2/i7.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables2/i7.jpeg" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+              <a href="assets/img/enGlobo/inflables2/i7.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables2/i7.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
@@ -267,11 +267,11 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="{{ url('/') }}#mesas" class="scroll-top d-flex align-items-center justify-content-center text-decoration-none" style="background: none; width: auto; height: auto;">
+  <!--<a href="{{ url('/') }}#mesas" class="scroll-top d-flex align-items-center justify-content-center text-decoration-none" style="background: none; width: auto; height: auto;">
     <img src="{{ asset('assets/img/enGlobo/flechaRegresar.png') }}" alt="Inflables 3x3" class="img-fluid" style="max-height: 100px; object-fit: contain;">
-  </a>
+  </a>-->
   <!-- Scroll Top -->
-  <!--<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>-->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>

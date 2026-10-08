@@ -49,7 +49,7 @@
     <!-- Enlace y Banner -->
     <a href="index.html" class="logo-link-extremo">
       <!--<img src="assets/img/enGlobo/sillas.jpeg" class="img-fluid portfolio-content-img" alt="Mesas" style="width: 400px; height: 250px; object-fit: cover;">-->
-      <img src="assets/img/enGlobo/logoEnglobo.jpeg" alt="EnGloboFiestas" class="logo-extremo-img" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="assets/img/enGlobo/logoEnglobo5.jpeg" alt="EnGloboFiestas" class="logo-extremo-img" style="width: 100%; height: 100%; object-fit: cover;">
     </a>
 
     <!-- Navegación -->
@@ -762,10 +762,10 @@
   </footer>
 
   <!-- Scroll Top -->
-   <a href="#" class="scroll-top d-flex align-items-center justify-content-center text-decoration-none" style="background: none; width: auto; height: auto;">
+   <!--<a href="#" class="scroll-top d-flex align-items-center justify-content-center text-decoration-none" style="background: none; width: auto; height: auto;">
     <img src="assets/img/enGlobo/subir.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 100px; object-fit: contain;">
-    </a>
-  <!--<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>-->
+    </a>-->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
