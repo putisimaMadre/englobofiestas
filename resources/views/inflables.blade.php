@@ -41,7 +41,7 @@
       
       <!-- Logo Centrado -->
       <a href="index.html" class="logo-link-extremo">
-      <img src="assets/img/enGlobo/imagenPrincipalInflables1.jpeg" alt="EnGloboFiestas" class="logo-extremo-img">
+      <img src="assets/img/enGlobo/imagenPrincipalInflables1.jpeg" alt="EnGloboFiestas" class="logo-extremo-img" style="width: 100%; height: 100%; object-fit: cover;">
     </a>
 
       <!-- Navegación a la derecha -->

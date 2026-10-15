@@ -572,7 +572,7 @@
                       <a href="{{ url('/carpas') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/ori/carpasTitulo.png" class="img-fluid portfolio-content-img" alt="Carpas">
+                      <img src="assets/img/enGlobo/ori/tituloCarpasYLonas.png" class="img-fluid portfolio-content-img" alt="Carpas">
                     </div>
                   </div>
                 </div>

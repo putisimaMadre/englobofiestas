@@ -41,7 +41,7 @@
       
       <!-- Logo Centrado -->
       <a href="index.html" class="logo-link-extremo">
-      <img src="assets/img/enGlobo/tituloSalaLoungeGrande.jpeg" alt="EnGloboFiestas" class="logo-extremo-img">
+      <img src="assets/img/enGlobo/tituloSalaLoungeGrande.jpeg" alt="EnGloboFiestas" class="logo-extremo-img" style="width: 100%; height: 70%; object-fit: cover;">
     </a>
 
       <!-- Navegación a la derecha -->
