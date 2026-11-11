@@ -145,6 +145,7 @@
                       <li><a class="dropdown-item" href="portfolio-inflables.html">Rally Pista</a></li>
                       <li><a class="dropdown-item" href="portfolio-inflables.html">Gotcha hidrogel</a></li><li><a class="dropdown-item" href="portfolio-inflables.html#castillos">Mesa hokye</a></li>
                       <li><a class="dropdown-item" href="portfolio-inflables.html">Maquina de espuma </a></li>
+                      <li><a class="dropdown-item" href="portfolio-inflables.html">Ajedrez Gigante</a></li>
 
                     </ul>
                   </li>
