@@ -188,9 +188,15 @@
            <img src="assets/img/enGlobo/torosMecanicos.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 300px; object-fit: contain;">
           </div>
             
-            <div class="col-6 col-md-4 offset-md-4">
+            <div class="col-6 col-md-4 offset-md-2">
               <a href="assets/img/enGlobo/inflables1/i24.png" class="glightbox" data-gallery="portfolio-gallery">
                 <img src="assets/img/enGlobo/inflables1/i24.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/inflables1/i8.png" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/inflables1/i8.png" alt="Inflable vista 3" class="img-fluid rounded shadow-sm" style="width: 100%; height: 280px; object-fit: cover;">
               </a>
             </div>
         </div>
