@@ -508,7 +508,7 @@
                       <a href="{{ url('/decoracion') }}" title="Ver detalles" class="portfolio-info-hover portfolio-link"></a>
                     </div>
                     <div class="portfolio-info-text">
-                      <img src="assets/img/enGlobo/ori/decoracionTitulo.png" class="img-fluid portfolio-content-img" alt="Inflable">
+                      <img src="assets/img/enGlobo/tituloDecoracionIndex.png" class="img-fluid portfolio-content-img" alt="Inflable">
                     </div>
                   </div>
                 </div>

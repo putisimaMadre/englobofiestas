@@ -41,7 +41,7 @@
       
       <!-- Logo Centrado -->
       <a href="index.html" class="logo-link-extremo">
-      <img src="assets/img/enGlobo/tituloDecoracionGrande.jpeg" alt="EnGloboFiestas" class="logo-extremo-img">
+      <img src="assets/img/enGlobo/decoracion/nuevos/m10.jpeg" alt="EnGloboFiestas" class="logo-extremo-img" style="max-height: 400px; object-fit: contain;">
     </a>
 
       <!-- Navegación a la derecha -->
@@ -74,63 +74,162 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4" id="telas">
+        <div class="row gy-4">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
-              <img src="assets/img/enGlobo/globos.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
-            </div>
+            <img src="assets/img/enGlobo/tituloDecoracion.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+          </div>
             
-            <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i12e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i12e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m1.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m1.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
               </a>
             </div>
-        </div>
 
-        <div class="row gy-4" id="flores">
-        <!--==================.  3x3 ====================-->
-          <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
-            <div class="text-center">
-              <img src="assets/img/enGlobo/telas.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
-            </div>
-            
-            <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i12e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i12e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m2.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m2.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
               </a>
             </div>
-        </div>
 
-        <div class="row gy-4" id="luces">
-        <!--==================.  3x3 ====================-->
-          <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
-            <div class="text-center">
-              <img src="assets/img/enGlobo/flores.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
-            </div>
-            
-            <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i12e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i12e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m3.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m3.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
               </a>
             </div>
-        </div>
 
-        <div class="row gy-4" id="luces">
-        <!--==================.  3x3 ====================-->
-          <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
-            <div class="text-center">
-              <img src="assets/img/enGlobo/luces.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
-            </div>
-            
-            <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i12e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i12e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m4.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m4.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
               </a>
             </div>
-        </div>
-        
-        </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m5.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m5.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m6.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m6.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m8.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m8.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m9.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m9.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m10.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m10.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m11.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m11.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m12.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m12.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m13.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m13.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m14.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m14.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m15.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m15.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m16.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m16.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m17.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m17.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m18.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m18.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m19.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m19.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m20.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m20.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m21.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m21.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m22.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m23.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m23.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m23.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m24.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m24.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m25.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m25.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 offset-4">
+              <a href="assets/img/enGlobo/decoracion/nuevos/m26.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/decoracion/nuevos/m26.jpeg" alt="decoracion" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
 
         </div>
 
