@@ -101,33 +101,192 @@
               </a>
             </div>
         </div>
-
+<!--mesa Imperial-->        
         <div class="row gy-4" id="mesaCalifornia">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
               <img src="assets/img/enGlobo/mesaImperial.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+              <img src="assets/img/enGlobo/sillasCrossbar.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+              <img src="assets/img/enGlobo/sillasTiffany.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
             </div>
             
-            <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i12e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i12e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf1.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf1.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf2.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf2.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf3.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf3.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf4.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf4.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf5.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf5.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf6.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf6.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf7.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf7.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf8.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf8.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf9.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf9.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf10.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf10.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf11.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf11.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf13.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf13.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4 offset-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf14.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialYSillaCrossbarYTiffany/mysf14.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
               </a>
             </div>
         </div>
-
+<!--mesa california-->
         <div class="row gy-4" id="mesaPicNic">
         <!--==================.  3x3 ====================-->
           <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
             <div class="text-center">
               <img src="assets/img/enGlobo/mesaCalifornia.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+              <img src="assets/img/enGlobo/sillasCrossbar.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
             </div>
             
-            <div class="col-6 col-md-4 offset-md-4">
-              <a href="assets/img/enGlobo/inflables1/i12e.jpeg" class="glightbox" data-gallery="portfolio-gallery">
-                <img src="assets/img/enGlobo/inflables1/i12e.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 180px; object-fit: cover;">
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys1.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys1.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
               </a>
             </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys2.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys2.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys3.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys3.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys4.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys4.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys5.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys5.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys6.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys6.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys7.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys7.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys8.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys8.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys9.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys9.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys10.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys10.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys11.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaYSillaCrossbar/mys11.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+        </div>
+
+<!--mesaImperialVintage.png-->
+        <div class="row gy-4" id="mesaCalifornia">
+        <!--==================.  3x3 ====================-->
+          <!--<div class="text-center rounded p-3 w-100" style="background-image: url('assets/img/enGlobo/fondoInflables4.jpeg'); background-size: cover; background-position: center; width: 100%;">-->
+            <div class="text-center">
+              <img src="assets/img/enGlobo/mesaImperialVintage.png" alt="Inflables 3x3" class="img-fluid" style="max-height: 200px; object-fit: contain;">
+            </div>
+            
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialVintage/miv1.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialVintage/miv1.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialVintage/miv2.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialVintage/miv2.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialVintage/miv3.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialVintage/miv3.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialVintage/miv4.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialVintage/miv4.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialVintage/miv5.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialVintage/miv5.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialVintage/miv6.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialVintage/miv6.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            <div class="col-6 col-md-4 offset-4">
+              <a href="assets/img/enGlobo/mesas/mesaImperialVintage/miv7.jpeg" class="glightbox" data-gallery="portfolio-gallery">
+                <img src="assets/img/enGlobo/mesas/mesaImperialVintage/miv7.jpeg" alt="Inflable vista 1" class="img-fluid rounded shadow-sm" style="width: 100%; height: 100%; object-fit: cover;">
+              </a>
+            </div>
+            
         </div>
 
         <div class="row gy-4" id="mesaDeSombrilla">
